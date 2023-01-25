@@ -1,0 +1,92 @@
+<div class="grid mx-5">
+    <div>
+        <h3 class="m-1">Home</h3>
+    </div>
+    <div class="col-12 m-2">
+        <div class="grid">
+            <div class="col-12 lg:col-6 border-solid border-300 border-1">
+                <h3>Current usage</h3>
+                <div class="grid mx-5">
+                    <div class="lg:col-6">
+                        <p>Cumulative of the day</p>
+                        <p>Cumulative this month</p>
+                        <span>* After the meter reading date</span>
+                    </div>
+                    <div class="lg:col-6">
+                        <p>kWh</p>
+                        <p>kWh</p>
+                    </div>
+                    <div class="lg:col-12">
+                        <button  routerLink="/usage-status" pButton class="p-2 border-noround border-transparent text-white text-lg"
+                            style="background-color: #E60012;float: right;" type="button">View details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 lg:col-6 border-solid border-300 border-1">
+                <h3>Usage Price</h3>
+                <div class="grid mx-5">
+                    <div class="lg:col-6">
+                        <p>Billed this time</p>
+                    </div>
+                    <div class="lg:col-2">
+                        <div class="text-center">
+                            <p class="border-top-2 border-500 w-6rem mb-3 surface-overlay flex "></p>
+                            <small class="">yen</small>
+                        </div>
+                    </div>
+                    <div class="lg:col-12">
+                        <button  routerLink="/usage-details" pButton class="p-2 border-noround border-transparent text-white text-lg"
+                            style="background-color: #E60012;float: right;" type="button">View details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 m-2 mb-8">
+        <div class="grid list_group">
+            <div class="lg:col-3 p-0 border-solid border-300 border-2">
+                <h3 class="text-center">Plan comparison</h3>
+                <div class="text-center">
+                    <img class="text-center" src="./../../assets/Img/menuicon4.png" width="140px" alt="">
+                </div>
+                <hr class="mx-3">
+                <ul>
+                    <li><a href="">I want to know what kind of plan I have</a></li>
+                    <li><a href="">I want to do simulation of the optimal rate plan</a></li>
+                </ul>
+            </div>
+            <div class="lg:col-3 p-0 border-solid border-300 border-1">
+                <h3 class="text-center">Analysis graph of Energy Saving</h3>
+                <div class="text-center">
+                    <img class="text-center" src="./../../assets/Img/menuicon3.png" width="140px" alt="">
+                </div>
+                <hr class="mx-3">
+                <ul>
+                    <li><a href="/usage-status">I want to see the energy usage status in a graph</a></li>
+                    <li><a href="/usage-status">I want to compare my usage with last year</a></li>
+                    <li><a href="/usage-status">I want to compare usage with similar households</a></li>
+                </ul>
+            </div>
+            <div class="lg:col-3 p-0 border-solid border-300 border-1">
+                <h3 class="text-center">Current Contract Details</h3>
+                <div class="text-center">
+                    <img class="text-center" src="./../../assets/Img/menuicon2.png" width="140px" alt="">
+                </div>
+                <hr class="mx-3">
+                <ul>
+                    <li><a href="">I want to check the current contract details</a></li>
+                </ul>
+            </div>
+            <div class="lg:col-3 p-0 border-solid border-300 border-1">
+                <h3 class="text-center">Contract change procedure</h3>
+                <div class="text-center">
+                    <img class="text-center" src="./../../assets/Img/menuicon1.png" width="140px" alt="">
+                </div>
+                <hr class="mx-3">
+                <ul>
+                    <li><a href="">I want to change the contract</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

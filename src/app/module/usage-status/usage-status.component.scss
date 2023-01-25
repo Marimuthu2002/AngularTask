@@ -1,0 +1,10 @@
+::ng-deep .p-button {
+    display: inline-block;
+}
+::ng-deep .p-calendar-w-btn .p-datepicker-trigger {
+    background-color: #e60012;
+    border: none;
+    &:hover {
+      background-color: #e60012;
+    }
+  }

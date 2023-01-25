@@ -1,0 +1,54 @@
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #ffffff;
+}
+.lastLogin {
+  place-content: center;
+  display: grid;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 14px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 25px;
+  padding: 0px;
+}
+
+.dropdown-content li {
+  padding: 12px 16px;
+  display: block;
+  list-style-type: none;
+}
+
+.dropdown-content li:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.para:hover {
+  background-color: #fc9018;
+}
+
+::ng-deep.p-inputtext {
+  padding: 0.5rem 0.5rem;
+}
+::ng-deep .grid {
+    margin-top: 0;
+}
+.active{
+  background-color: #fc9018;
+}

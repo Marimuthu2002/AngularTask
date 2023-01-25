@@ -1,0 +1,43 @@
+<div class="grid p-1">
+    <div class="col-12 lg:col-3">
+        <a href="/login" target="_blank"><img src="assets/Img/logo.png" alt="Marupeni" width="45%"></a>
+    </div>
+    <div class="col-12 lg:col-6"></div>
+    <div class="col-12 lg:col-1 lastLogin p-0">Last Login:</div>
+    <div class="dropdown col-12 lg:col-1">
+        <button class="dropbtn">Translate</button>
+        <ul class="dropdown-content m-0">
+            <li><img src="assets/Img/usa.png" alt="" width="15%"> <span>English</span></li>
+            <li><img src="assets/Img/japan.png" alt="" width="15%"> Jappan</li>
+        </ul>
+    </div>
+    <div class="dropdown col-12 lg:col-1">
+        <button class="dropbtn"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+                class="fa-solid fa-chevron-down"></i></button>
+        <ul class="dropdown-content m-0">
+            <li><i class="fa-solid fa-gear"></i>&nbsp; Account Setting</li>
+            <li><i class="fa-solid fa-gear"></i>&nbsp; Manage Profile</li>
+            <li><i class="fa-solid fa-right-from-bracket"></i>&nbsp; Logout</li>
+        </ul>
+    </div>
+</div>
+<div class="gridItem grid p-0 mt-0" style="background-color: #E60012;margin-bottom: 1px;">
+    <p class="m-0 py-3 px-4 font-medium text-lg text-white para" routerLinkActive='active' routerLink="home">Home</p>
+    <p class="m-0 py-3 px-4 font-medium text-lg text-white para" routerLinkActive='active' routerLink="usage-details">
+        Usage Details</p>
+    <p class="m-0 py-3 px-4 font-medium text-lg text-white para" routerLinkActive='active' routerLink="usage-status">
+        Usage Status</p>
+    <p class="m-0 py-3 px-4 font-medium text-lg text-white para" routerLinkActive='active'
+        routerLink="contract-change-procedure">Contract change
+        procedure</p>
+    <p class="m-0 py-3 px-4 font-medium text-lg text-white para" routerLinkActive='active'
+        routerLink="current-contract-details">Current
+        Contract Details</p>
+</div>
+<div class="grid " style="background-color: #FC9018;">
+    <div class="text-white font-medium  sm:col-12 md:col-6 lg:col-6 pt-3">Customer Name:</div>
+    <div class="text-white font-medium  sm:col-12 md:col-6 lg:col-6">
+        Selected Marubeni Energy Account:
+        <p-dropdown [options]="cities" [editable]="true" optionLabel="name"></p-dropdown>
+    </div>
+</div>

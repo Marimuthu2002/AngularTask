@@ -1,0 +1,49 @@
+<div class="mx-8 grid">
+    <div class="col-12 lg:col-12    ">
+        <p class="text-sm">Home > Usage Status</p>
+    </div>
+    <div class="col-12 lg:col-12">
+        <a style="text-decoration: underline;">Usage / Charge Results</a>
+    </div>
+    <div class="col-12 lg:col-12 text-center" style="height: 125px;">
+        <div class="grid">
+            <div class="col-12 lg:col-6 text-center">
+                <button pButton class="px-5 py-2 ml-4 border-transparent text-white text-lg"
+                    style="background-color: #E60012;width: 63%;height: 160%;" type="button">Charges and Usages</button>
+            </div>
+            <div class="col-12 lg:col-6">
+                <button pButton class="px-5 py-2 ml-4 border-transparent text-white text-lg"
+                    style="background-color: #E60012;width: 63%;height: 160%;" type="button">Energy-Saving Analysis
+                    Compare with
+                    other households in similar conditions</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-12">
+        <button class="px-4 py-2 text-white border-noround" pButton
+            style="background-color: #E60012;border: none;">Charge</button>
+        <button class="px-4 py-2 text-white border-noround" pButton
+            style="background-color: #E60012;border: none;">Usage</button>
+    </div>
+    <div class="col-12 col-lg-12">
+        <div class="grid">
+            <div class="col-12 lg:col-9">
+                <button class="px-6 py-2 mx-2 text-white" pButton
+                    style="border-radius: 20px;background-color: #E60012;border-color: #E60012;width: 20%;">Monthly</button>
+                <button class="px-6 py-2 mx-2 text-black-alpha-90 bg-white" pButton
+                    style="border-radius: 20px;border-color: #E60012;width: 20%;">Daily</button>
+                <button class="px-6 py-2 mx-2 text-black-alpha-90 bg-white" pButton
+                    style="border-radius: 20px;border-color: #E60012;">Day
+                    Of The
+                    Week</button>
+                <button class="px-6 py-2 mx-2 text-black-alpha-90 bg-white" pButton
+                    style="border-color: #E60012;width: 20%;border-radius: 20px;">30 Minutes</button>
+            </div>
+            <div class="col-12 lg:col-3 flex">
+                <label for="">Compare with Last year</label>
+                <p-calendar class="" [(ngModel)]="date3" [showIcon]="true" inputId="icon"></p-calendar>
+            </div>
+        </div>
+    </div>
+
+</div>
